@@ -1,3 +1,3 @@
-export const partterns= {
-    email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-}
+export const patterns = {
+	email: /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/,
+};
